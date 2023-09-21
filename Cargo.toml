@@ -1,0 +1,9 @@
+[package]
+name = "iced-context-menu"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+iced = {git = "https://github.com/iced-rs/iced/", rev="bc9bb28b1ccd1248d63ccdfef2f57d7aa837abbb", features = ["advanced", "debug"]}
